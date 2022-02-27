@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+    <script src="js/code.js"></script>
+    <title>weather v1.0</title>
+</head>
+<body onload="abcd()"> 
+        <section>
+            <div id="name">
+                <i class="fas fa-map-marker-alt"></i>
+                <select onchange="abcd()" id="tuman">
+                    <option value="tashkent">Tashkent</option>
+                    <option value="andijan">Andijon</option>
+                    <option value="namangan">Namangan</option>
+                    <option value="fergana">Farg'ona</option>
+                    <option value="guliston">Sirdaryo</option>
+                    <option value="jizzakh">Jizzax</option>
+                    <option value="samarkand">Samarqand</option>
+                    <option value="bukhara">Buxoro</option>
+                    <option value="navoiy">Navoiy</option>
+                    <option value="qarshi">Qashqadaryo</option>
+                    <option value="termez">Surxondaryo</option>
+                    <option value="urgench">Xorazm</option>
+                </select>
+            </div>
+            <div class="cop">
+                <div class="react"><i class="fas fa-cloud-sun"></i><span>+</span></div><div id="temp"></div>
+            </div>
+            <div id="weather"></div>
+            <div id="windspeed"></div>
+        </section>
+</body>
+</html>

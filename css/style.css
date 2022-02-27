@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-image: url(../img/1540016.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#name {
+    margin-bottom: 30px;
+}
+select {
+    border: none;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    background-color: transparent;   
+}
+select:hover {
+    border: none;
+}
+#name i {
+    font-size: 40px;
+    margin-right: 20px;
+}
+#temp {
+    font-size: 70px;
+    
+}
+#temp span {
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-top: -100px;
+}
+#temp i {
+    font-size: 40px;
+    margin-right: 50px;
+}
+#weather {
+    text-align: center;
+    font-size: 50px;
+}
+.react i {
+    font-size: 40px;
+    margin-right: 50px;
+    color: rgb(255, 251, 0);
+}
+.react span {
+    font-size: 40px;
+    
+    
+}
+.cop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#windspeed {
+    text-align: center;
+    font-size: 30px;
+}
